@@ -1,0 +1,38 @@
+# Игнорируем директорию node_modules (содержит все зависимости)
+node_modules/
+
+# Игнорируем временные файлы Jest
+coverage/
+jest-test-results.json
+
+# Лог-файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Системные файлы macOS
+.DS_Store
+
+# Настройки редакторов и IDE
+.vscode/
+.idea/
+
+# Конфиденциальные файлы
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Файлы сборки (если используешь TypeScript или Babel)
+dist/
+build/
+
+# Папка с временными файлами npm
+.pnpm-debug.log*
+
+# Кэш npm и Yarn
+.npm/
+.yarn/
+.yarn/cache/
+.pnp.*
